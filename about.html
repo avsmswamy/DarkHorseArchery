@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+    <title>Dark Horse</title>
+    <link rel = "icon" href = "./images/logo.png" type = "image/x-icon">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #section1{
+            background-image: url(./images/cover\ photo.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #section1 .tint{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            padding: 2%;
+
+        }
+        #section1 .br-container{
+            color: white;
+
+        }
+        #section1 .br-container a{
+            color: white;
+        }
+        #section3{
+            padding:5% 10%;
+            background-color:rgb(52, 58, 64);
+        }
+        #section5{
+            padding: 5% 10%;
+            background-color: rgb(33, 37, 41);
+        }
+        .fab{
+            font-size: 2em;
+            margin: 5px 10px;
+        }
+        .fas{
+            font-size: 2em;
+        }
+        .top-arrow{
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            display: none;
+        }
+        .top-disp{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn btn-success top-arrow" id="top-btn">
+        <i class="fas fa-arrow-circle-up"></i>
+    </button>
+    <section id="section1"> 
+        <div class="tint">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <i class="fas fa-chess-knight navbar-brand"></i>
+                <a class="navbar-brand" href="./index.html">Dark Horse</a>
+                <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./coaching.html">Get Coaching</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            <div class="br-container mt-5 pt-5">
+                <a href="./index.html">Home </a>/ About
+            </div>
+        </div>
+    </section>
+    <section class="p-5" id="section2">
+        <div class="container">
+            <div class="row mt-sm-5">
+                <div class="col-sm-5">
+                    <img src="./images/shooting arrow.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-sm-7">
+                    <h2 class="font-weight-bold" style="line-height:1.5;">Our Mission</h2>
+                    <p>
+                        Indian Archery is now progressing fast towards the pinnacle of World Archery. Though the path to an Olympic Medal is long and arduous. Archery Association of India has formulated, and continues to evolve, a scientific and holistic strategy towards achieving the ultimate aim.
+                    </p>
+                    <p>
+                        Joining Archery Training Center is often the next step for archers who loved archery at summer camp, in the Boy Scouts or 4H, or in school through Olympic Archery in Schools (OAS), National Archery in the Schools Program (NASP), or an After School Archery Program (ASAP). These organizations, send us their most focused and passionate archers!
+                    </p>
+                    <p>
+                        We strive continuously to find the best information and most up-to-date methods to improve and grow archers. Through coaching the National Training System (NTS) we have seen improvement in shot strength and accuracy, personal confidence, positive self-image, focus, work ethic, resilience and many successes! We look forward to your joining us!
+                    </p>
+                    <p>
+                        We welcome all levels and ages of archers, and can take you as far as you want to go!
+                    </p>
+                    <div>
+                        <button class="btn btn-success btn-lg text-white">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section3" class="my-5 text-center text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>215</h3>
+                    <h5>Archers</h5>
+                </div>
+                <br><br><br><br>
+                <div class="col-sm-3">
+                    <h3>678</h3>
+                    <h5>Matches Played</h5>
+                </div>
+                <br><br><br><br>
+                <div class="col-sm-3">
+                    <h3>480</h3>
+                    <h5>Medals</h5>
+                </div>
+                <br><br><br><br>
+                <div class="col-sm-3">
+                    <h3>150</h3>
+                    <h5>International Matches</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section4" class="p-5">
+        <div class="container text-center">
+            <h3>Subscribe to our news letter</h3>
+            <div class="row my-5">
+                <div class="col-sm-2">
+
+                </div>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="subscribe" placeholder="Your E-mail address">
+                        <div class="input-group-append">
+                            <div class="btn btn-success">Subscribe</div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <div class="container text-center text-muted">
+            <div class="row">
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-6">
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+            </div>
+            <hr style=" border-bottom: 1px solid; color: gray;">
+            Copy rights reserved 2021
+        </div>
+    </section>
+    <script>
+        window.onscroll=function(){
+            if(window.scrollY > 500)
+                document.getElementById("top-btn").classList.add("top-disp")
+            if(window.scrollY < 500)
+                document.getElementById("top-btn").classList.remove("top-disp")
+        };
+        document.getElementById("top-btn").onclick=function(){
+            window.scrollTo(0,0);
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

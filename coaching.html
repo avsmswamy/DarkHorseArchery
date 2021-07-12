@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+    <title>Dark Horse</title>
+    <link rel = "icon" href = "./images/logo.png" type = "image/x-icon">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #section1{
+            background-image: url(./images/cover\ photo.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #section1 .tint{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            padding: 2%;
+
+        }
+        #section1 .br-container{
+            color: white;
+
+        }
+        #section1 .br-container a{
+            color: white;
+        }
+        #section2{
+            padding: 5% 10%;
+        }
+        #section3{
+            padding: 5% 10%;
+            background-color:rgb(247, 247, 249);
+        }
+        #section3 ul li{
+            line-height: 2;
+        }
+        #section5{
+            padding: 5% 10%;
+            background-color: rgb(33, 37, 41);
+        }
+        .fab{
+            font-size: 2em;
+            margin: 5px 10px;
+        }
+        .fas{
+            font-size: 2em;
+        }
+        .top-arrow{
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            display: none;
+        }
+        .top-disp{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn btn-success top-arrow" id="top-btn">
+        <i class="fas fa-arrow-circle-up"></i>
+    </button>
+    <section id="section1"> 
+        <div class="tint">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <i class="fas fa-chess-knight navbar-brand"></i>
+                <a class="navbar-brand" href="./index.html">Dark Horse</a>
+                <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./coaching.html">Get Coaching</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            <div class="br-container mt-5 pt-5">
+                <a href="./index.html">Home </a>/ Get Coaching
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="container p-5">
+            <h2 class="text-center">What Coaching Can Offer</h2>
+            <hr style="border-bottom: 1px solid black; width: 50%;">
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-sm-3 mt-2">
+                    <div class="media">
+                        <i class="fas fa-user mr-4 p-2 rounded" style="font-size: 2em;color:green;"></i>
+                        <div class="media-body">
+                          <h5 class="mt-0">LEARN THE TECHNIQUE THAT’S BEST FOR YOU</h5>
+                          Learn how to stop imitating technique, and start unlocking a way of shooting based on firm principles but that works for you.
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3 mt-2">
+                    <div class="media">
+                        <i class="far fa-lightbulb mr-3 p-3 rounded" style="font-size: 2em; color: green;"></i>
+                        <div class="media-body">
+                          <h5 class="mt-0">GAIN CLARITY OF YOUR PRIORITIES</h5>
+                          Get clear on what your goals are and what you actually need to do to improve your archery.
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3 mt-2">
+                    <div class="media">
+                        <i class="fas fa-tachometer-alt mr-3 p-2 rounded" style="font-size: 2em; color: green;"></i>
+                        <div class="media-body">
+                          <h5 class="mt-0">ACCELERATE YOUR PROGRESS</h5>
+                          Save yourself years of trial and error repeating incorrect technique that could cause injury. And fast-track your progress along the way.
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3 mt-2">
+                    <div class="media">
+                        <i class="fas fa-trophy mr-3 p-2 rounded" style="font-size: 2em; color: green;"></i>
+                        <div class="media-body">
+                          <h5 class="mt-0">ACHIEVE YOUR ARCHERY GOALS</h5>
+                          Renew your passion, improve your mental approach and reach your goals by working with a coach that keeps you accountable.
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="container">
+            <h2 class="text-center">Our Packages</h2>
+            <p class="text-center p-3">
+                If you want to help people who already shoot to learn how to train and take their archery to the next level, then the Development Coach course will deepen your understanding of the coaching knowledge, attributes, and practices, to be successful.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 mt-3">
+                    <div class="card">
+                        <div class="card-header bg-success text-white text-center" style="font-size: 1.5em;">
+                          Basic
+                        </div>
+                        <div class="card-body text-center">
+                          <ul style="list-style: none;padding: 0px;">
+                              <li>Basics</li>
+                              <li>Shooting techniques</li>
+                              <li>Equipment Set Up</li>
+                              <li>-</li>
+                              <li>-</li>
+                              <li>-</li>
+                              <li>-</li>
+                          </ul>
+                          <button class="btn btn-success">Get Started</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-4 mt-3">
+                    <div class="card">
+                        <div class="card-header bg-success text-white text-center" style="font-size: 1.5em;">
+                          Standard
+                        </div>
+                        <div class="card-body text-center">
+                          <ul style="list-style: none;padding: 0px;">
+                              <li>Basics</li>
+                              <li>Shooting techniques</li>
+                              <li>Equipment Set Up</li>
+                              <li>Drills</li>
+                              <li>workouts</li>
+                              <li>-</li>
+                              <li>-</li>
+                          </ul>
+                          <button class="btn btn-success">Get Started</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-4 mt-3">
+                    <div class="card">
+                        <div class="card-header bg-success text-white text-center" style="font-size: 1.5em;">
+                          Professional
+                        </div>
+                        <div class="card-body text-center">
+                          <ul style="list-style: none;padding: 0px;">
+                            <li>Basics</li>
+                            <li>Shooting techniques</li>
+                            <li>Equipment Set Up</li>
+                            <li>Drills</li>
+                            <li>workouts</li>
+                            <li>personal assitance</li>
+                            <li>Professional Training</li>
+                          </ul>
+                          <button class="btn btn-success">Get Started</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <div class="container text-center text-muted">
+            <div class="row">
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-6">
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+            </div>
+            <hr style=" border-bottom: 1px solid; color: gray;">
+            Copy rights reserved 2021
+        </div>
+    </section>
+    <script>
+        window.onscroll=function(){
+            if(window.scrollY > 500)
+                document.getElementById("top-btn").classList.add("top-disp")
+            if(window.scrollY < 500)
+                document.getElementById("top-btn").classList.remove("top-disp")
+        };
+        document.getElementById("top-btn").onclick=function(){
+            window.scrollTo(0,0);
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

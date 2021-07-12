@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+    <title>Dark Horse</title>
+    <link rel = "icon" href = "./images/logo.png" type = "image/x-icon">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        #section1{
+            background-image: url(./images/cover\ photo.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #section1 .tint{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            padding: 2%;
+
+        }
+        #section1 .br-container{
+            color: white;
+
+        }
+        #section1 .br-container a{
+            color: white;
+        }
+        #section2{
+            padding: 5% 10%;
+        }
+        #section2 ul li{
+            margin-top: 4px;
+            font-weight: bold;
+            color: grey;
+        }
+        #section3{
+            margin-bottom: -6px;
+            max-width: 100%;
+        }
+        #section5{
+            padding: 5% 10%;
+            background-color: rgb(33, 37, 41);
+        }
+        .fab{
+            font-size: 2em;
+            margin: 5px 10px;
+        }
+        .fas{
+            font-size: 2em;
+        }
+        .top-arrow{
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            display: none;
+        }
+        .top-disp{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn btn-success top-arrow" id="top-btn">
+        <i class="fas fa-arrow-circle-up"></i>
+    </button>
+    <section id="section1"> 
+        <div class="tint">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <i class="fas fa-chess-knight navbar-brand"></i>
+                <a class="navbar-brand" href="./index.html">Dark Horse</a>
+                <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#menu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./coaching.html">Get Coaching</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            <div class="br-container mt-5 pt-5">
+                <a href="./index.html">Home </a>/ Contact
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input type="text" name="uname" placeholder="Name" class="form-control">
+                        <br>
+                        <input type="email" name="email" placeholder="Email" class="form-control">
+                        <br>
+                        <textarea name="msg" cols="30" rows="5" class="form-control p-0" placeholder="  Message" id="t3"></textarea>
+                        <br>
+                        <div class="text-center">
+                            <button class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <h5 class="card-header">
+                            <i class="far fa-envelope mr-1"></i>
+                            Address
+                        </h5>
+                        <div class="card-body">
+                            <ul style="list-style: none; margin-left: 0px;">
+                                <li>D NO: 8-2-25B,</li>
+                                <li>Kavali-524201,</li>
+                                <li>Nellore District,</li>
+                                <li>Andhra Pradesh,</li>
+                                <li>India.</li>
+                            </ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section3"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30842.553544445876!2d79.97564672892562!3d14.919299803536303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b7bede60f2cd1%3A0x79dbd44acac77dc1!2sVaddi%20Palem%2C%20Kavali%2C%20Andhra%20Pradesh%20524201!5e0!3m2!1sen!2sin!4v1613233836304!5m2!1sen!2sin" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section id="section5">
+        <div class="container text-center text-muted">
+            <div class="row">
+                <div class="col-sm-3">
+
+                </div>
+                <div class="col-sm-6">
+                    <i class="fab fa-whatsapp"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="col-sm-3">
+
+                </div>
+            </div>
+            <hr style=" border-bottom: 1px solid; color: gray;">
+            Copy rights reserved 2021
+        </div>
+    </section>
+    <script>
+        window.onscroll=function(){
+            if(window.scrollY > 500)
+                document.getElementById("top-btn").classList.add("top-disp")
+            if(window.scrollY < 500)
+                document.getElementById("top-btn").classList.remove("top-disp")
+        };
+        document.getElementById("top-btn").onclick=function(){
+            window.scrollTo(0,0);
+        };
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
